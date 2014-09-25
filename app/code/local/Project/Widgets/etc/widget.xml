@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<widgets>    
+	<widgets_startpage_news type="widgets/news" translate="name description" module="widgets">
+        <name>Startpage News</name>
+        <description type="desc">News for the Startpage</description>
+        <parameters>
+		    <headline>
+                <label>Headline</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+				<value></value>
+            </headline>
+		    <subline>
+                <label>Subline</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+				<value></value>
+            </subline>
+		    <image>
+                <label>Image</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>widgets/adminhtml_chooser</type>
+            </image>
+		    <content>
+                <label>Content</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>widgets/adminhtml_wysiwyg</type>
+            </content>
+            <template>
+                <value>widgets/startpage_news.html</value>
+            </template>
+        </parameters>
+    </widgets_startpage_news>
+</widgets>

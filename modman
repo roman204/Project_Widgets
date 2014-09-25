@@ -1,0 +1,4 @@
+app/code/local/Project/Widgets
+app/etc/modules/Project_Widgets.xml
+app/design/adminhtml/default/default/layout/chooser.xml
+app/design/frontend/base/default/template/widgets
